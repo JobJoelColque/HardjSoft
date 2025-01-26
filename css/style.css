@@ -14,6 +14,7 @@ body{
 	--linkedin: #0077B5;
 }
 .container-fluid{
+	text-align: center;
 	background: rgba(0, 160, 160, 0.7);
 }
 .menu img{
