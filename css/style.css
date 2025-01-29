@@ -33,7 +33,7 @@ body{
     float: left;
 }
 .menu a{
-    font-family: 'StopD';
+    font-family: 'StopD'!important;
     text-decoration: none!important;
     color: white;
     font-size: 40px;
@@ -67,7 +67,7 @@ body{
 	border-radius: 10px;
 }
 h1{
-	font-family: 'StopD';
+	font-family: 'StopD'!important;
 	text-align: center;
 	background: rgba(0, 160, 160, 0.7);
 	color: white;
