@@ -181,7 +181,7 @@ textarea {
 
 /* Labels formulario de contacto */
 .form-contact .ctn-inputs .support-text-form-contact {
-	color: #ffffff;
+	color: #000000;
 	font: normal 20px 'Nunito Sans', sans-serif;
 	left: 5px;
 	pointer-events: none;
@@ -202,7 +202,7 @@ textarea {
 .form-contact .ctn-inputs .effect-input {
 	background-color: rgba(255, 255, 255, 0);
 	font-size: 25px;
-	color: #ffffff;
+	color: #000000;
 	border-style: none;
 	border-bottom: 1px solid #a4a4a4;
 	display: block;
@@ -219,7 +219,7 @@ textarea {
 /* Barra de los inputs para el efecto formulario de contacto */
 .form-contact .ctn-inputs .bar-input-effect:before {
 	content: '';
-	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0);
 	bottom: 0;
 	height: 3px;
 	position: absolute;
