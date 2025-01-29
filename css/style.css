@@ -13,6 +13,10 @@ body{
 	--wtsp: #1D733B;
 	--linkedin: #0077B5;
 }
+@font-face{
+	font-family: 'StopD';
+	src: url(/font/StopD.ttf);
+}
 .container-fluid{
 	text-align: center!important;
 	background: rgba(0, 160, 160, 0.7);
