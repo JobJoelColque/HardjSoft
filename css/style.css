@@ -194,7 +194,7 @@ textarea {
 /* Efecto labels cuando el input esta en estado focus o valido Formulario de contacto */
 .form-contact .ctn-inputs .support-text-form-contact.active-input-form-contact {
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 23px;
 	top: -20px;
 }
 
