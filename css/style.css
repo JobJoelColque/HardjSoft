@@ -364,6 +364,7 @@ textarea {
 }
 
 footer{
+	text-align: center;
 	background: rgba(0, 160, 160, 0.7);
 	padding: 20px;
 }
@@ -383,14 +384,10 @@ footer p{
 	border-radius: 10px;
 }
 .pie{
-	text-align: center!important;
-	background: rgba(0, 160, 160, 0.7);
-	padding-top: 20px;
-	border-radius: 25px;
 }
 .pie ul li{
 	display: inline-block;
-	margin: 0 20px auto;
+	margin: 0 15px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	width: 50px;
