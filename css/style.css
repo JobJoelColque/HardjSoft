@@ -67,6 +67,7 @@ body{
 	border-radius: 10px;
 }
 h1{
+	font-family: 'StopD';
 	text-align: center;
 	background: rgba(0, 160, 160, 0.7);
 	color: white;
