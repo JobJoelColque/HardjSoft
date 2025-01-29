@@ -15,7 +15,7 @@ body{
 }
 @font-face{
 	font-family: 'StopD';
-	src: url(/font/StopD.ttf);
+	src: url(../font/StopD.ttf);
 }
 .container-fluid{
 	text-align: center!important;
