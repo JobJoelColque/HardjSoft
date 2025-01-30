@@ -404,7 +404,9 @@ footer p{
 }
 .pie ul li a{
 	display: block;
-	background: #333;
+	background: url(../img/Fondo4.jpg);
+	background-size: cover;
+	box-sizing: border-box;
 	color:  #fff;
 	line-height: 50px;
 	font-size: 18px;
