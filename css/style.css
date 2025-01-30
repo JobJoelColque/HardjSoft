@@ -140,7 +140,6 @@ textarea {
 .form-contact {
 	background: url(../img/fondo2.png);
 	background-size: cover;
-	background-attachment: fixed;
 	box-sizing: border-box;
 	margin: 1em auto;
 	max-width: 90%;
