@@ -180,7 +180,7 @@ textarea {
 
 /* Labels formulario de contacto */
 .form-contact .ctn-inputs .support-text-form-contact {
-	color: #000000;
+	color: rgba(255, 255, 255, 0);
 	font: normal 10px 'Nunito Sans', sans-serif;
 	left: 5px;
 	pointer-events: none;
@@ -192,7 +192,7 @@ textarea {
 
 /* Efecto labels cuando el input esta en estado focus o valido Formulario de contacto */
 .form-contact .ctn-inputs .support-text-form-contact.active-input-form-contact {
-	color: #000000;
+	color: rgba(255, 255, 255, 0);
 	font-size: 20px;
 	top: -20px;
 }
