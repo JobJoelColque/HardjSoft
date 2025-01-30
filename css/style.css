@@ -381,8 +381,10 @@ footer p{
 }
 .ir-arriba{
 	display: none;
-	padding: 15px;
-	background: rgba(0, 160, 160, 0.7);
+	padding: 45px;
+	background: url(../img/icono.png);
+	background-size: cover;
+	box-sizing: border-box;
 	font-size: 40px;
 	color: white;
 	cursor: pointer;
@@ -404,9 +406,6 @@ footer p{
 }
 .pie ul li a{
 	display: block;
-	background: url(../img/Fondo4.jpg);
-	background-size: cover;
-	box-sizing: border-box;
 	color:  #fff;
 	line-height: 50px;
 	font-size: 18px;
