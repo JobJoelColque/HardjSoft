@@ -39,7 +39,7 @@ body{
     font-size: 40px;
 }
 .menu a:hover{
-	color: #030A8C;
+	color: rgba(0, 160, 160, 1);
 	background: url(../img/fondo2.png);
 	background-size: cover;
 	box-sizing: border-box;
