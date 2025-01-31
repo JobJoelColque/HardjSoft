@@ -40,6 +40,10 @@ body{
 }
 .menu a:hover{
 	color: #030A8C;
+	background: url(../img/fondo2.png);
+	background-size: cover;
+	box-sizing: border-box;
+	border-radius: 15px;
 }
 .navbar-collapse {
     flex-basis: 100%;
@@ -380,7 +384,7 @@ footer p{
 }
 .ir-arriba{
 	display: none;
-	padding: 45px;
+	padding: 40px;
 	background: url(../img/icono.png);
 	background-size: cover;
 	box-sizing: border-box;
