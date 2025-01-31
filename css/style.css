@@ -184,7 +184,7 @@ textarea {
 .form-contact .ctn-inputs .effect-input:-webkit-autofill:hover,
 .form-contact .ctn-inputs .effect-input:-webkit-autofill:focus,
 .form-contact .ctn-inputs .effect-input:-webkit-autofill:active {
-	box-shadow: 0 0 0 1000px #f2f2f2 inset;
+	box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset;
 }
 
 /* Labels formulario de contacto */
