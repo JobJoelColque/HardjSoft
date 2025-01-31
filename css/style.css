@@ -395,8 +395,8 @@ footer p{
 	cursor: pointer;
 	position: fixed;
 	bottom: 120px;
-	right: 15px;
-	border-radius: 50px;
+	right: 50px;
+	border-radius: 15px;
 }
 .pie{
 }
