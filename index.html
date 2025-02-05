@@ -13,16 +13,18 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg" id="mainNav">
-        <div style="padding: 10px; padding-top: 10px; text-align: center;" class="container-fluid menu">
-            <img style="width: 100px;" src="img/Logo Final.png"><img style="width: 300px;" src="img/HJS.png">
-            <button style="font-family: 'StopD';" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            	Menu
-	            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
-	 		<path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
-		    </svg>	
-            </button>
+        <div class="container-fluid menu">
+            <img style="width: 100px;" src="img/Logo.png"><img style="width: 300px;" src="img/HJS.png">
+            <div class="boton">
+	            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	            	Menu
+		            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
+		 				<path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+					</svg>	
+	            </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <ul id="secciones" class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#quienessomos">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#productos">Tienda</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
@@ -51,7 +53,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <nav class="navbar navbar-expand-lg" id="mainNav">  
+	<nav class="navbar navbar-expand-lg" id="mainNav">  
 		<div class="container-fluid menu" id="historia">  
 			<button style="font-family: 'StopD';" class="navbar-toggler" id="texto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">  
 				HardjSoft  
@@ -60,7 +62,7 @@
 				</svg>    
 			</button>  
 			<div class="collapse navbar-collapse" id="navbarResponsive">  
-				<p class="text-container" style="padding: 2px; text-align: justify; font-size: 20px; color: white; border-radius: 25px;">  
+				<p class="text-container">  
 					Servicio técnico de pc´s y notebooks. Armado de CPU´s a medida, formato gamer o escritorio para trabajos de programación. Partición de unidad de disco para que en futuros mantenimientos no sea necesario buck up, o traspaso de información a unidades externas. Si el usuario asi lo requiere se deja funcional la opción de utilizar Sistema Operativo Windows 10 o Linux (Ubuntu o Debian) opciones en el momento del booteo del equipo. Servicio personalizado para que la experiencia del cliente sea de aprendizaje en el proceso de actualización y/o reparación del equipo. 
 				</p>  
 			</div>  
@@ -87,67 +89,79 @@
 	            <div id="compras" class="row">
 	                <!-- Producto 1 -->
 	                <div class="col-md-4">
-						<div style="background: rgba(0, 160, 160, 0.7);" class="card product-card">
+						<div class="card product-card">
 							<h5 class="card-title">Kit Teclado Mouse USB</h5>
 	                        <img src="img/Compras 1.png" class="card-img-top" alt="Producto 1">
 	                        <div class="card-body">
 	                            <p class="card-text">Kit de Teclado y Mouse conexión USB</p>
-				    <a href="Compras.html"><button type="button" class="btn btn-secondary btn-lg">Comprar</button></a>
+								<a href="Compras.html">									
+	                            	<button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+								</a>
 	                        </div>
 	                    </div>
 	                </div>
 	                <!-- Producto 2 -->
 	                <div class="col-md-4">
-	                    <div style="background: rgba(0, 160, 160, 0.7);" class="card product-card">
+	                    <div class="card product-card">
 							<h5 class="card-title">Kit Teclado Mouse Gamer USB</h5>
 	                        <img src="img/Compras 2.png" class="card-img-top" alt="Producto 2">
 	                        <div class="card-body">
 	                            <p class="card-text">Kit Teclado y Mouse Gamer conexión USB</p>
-				    <a href="Compras.html"><button type="button" class="btn btn-secondary btn-lg">Comprar</button></a>
+								<a href="Compras.html">	
+	                            	<button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+								</a>
 	                        </div>
 	                    </div>
 	                </div>
 	                <!-- Producto 3 -->
 	                <div class="col-md-4">
-	                    <div style="background: rgba(0, 160, 160, 0.7);" class="card product-card">
+	                    <div class="card product-card">
 							<h5 class="card-title">Kit Teclado Mouse BLT</h5>
 	                        <img src="img/Compras 3.png" class="card-img-top" alt="Producto 3">
 	                        <div class="card-body">
 	                            <p class="card-text">Kit Teclado y Mouse inhalámbrico (Bluetooth)</p>
-				    <a href="Compras.html"><button type="button" class="btn btn-secondary btn-lg">Comprar</button></a>
+								<a href="Compras.html">	
+	                            	<button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+								</a>
 	                        </div>
 	                    </div>
 	                </div>
 	                <!-- Producto 4 -->
 	                <div class="col-md-4">
-	                    <div style="background: rgba(0, 160, 160, 0.7);" class="card product-card">
+	                    <div class="card product-card">
 							<h5 class="card-title">Disco SSD Sata</h5>
 	                        <img src="img/Compras 4.png" class="card-img-top" alt="Producto 4">
 	                        <div class="card-body">
 	                            <p class="card-text">Disco Rígido SSD conexión Sata</p>
-				    <a href="Compras.html"><button type="button" class="btn btn-secondary btn-lg">Comprar</button></a>
+								<a href="Compras.html">	
+	                            	<button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+								</a>
 	                        </div>
 	                    </div>
 	                </div>
 	                <!-- Producto 5 -->
 	                <div class="col-md-4">
-	                    <div style="background: rgba(0, 160, 160, 0.7);" class="card product-card">
+	                    <div class="card product-card">
 							<h5 class="card-title">Disco SSD AM2</h5>
 	                        <img src="img/Compras 5.png" class="card-img-top" alt="Producto 5">
 	                        <div class="card-body">
 	                            <p class="card-text">Disco Rígido SSD conexión AM2</p>
-				    <a href="Compras.html"><button type="button" class="btn btn-secondary btn-lg">Comprar</button></a>
+								<a href="Compras.html">	
+	                            	<button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+								</a>
 	                        </div>
 	                    </div>
 	                </div>
 	                <!-- Producto 6 -->
 	                <div class="col-md-4">
-	                    <div style="background: rgba(0, 160, 160, 0.7);" class="card product-card">
+	                    <div class="card product-card">
 							<h5 class="card-title">Fuente</h5>
 	                        <img src="img/Compras 6.png" class="card-img-top" alt="Producto 6">
 	                        <div class="card-body">
 	                            <p class="card-text">Fuente de Alimentación 500 Wats</p>
-				    <a href="Compras.html"><button type="button" class="btn btn-secondary btn-lg">Comprar</button></a>
+								<a href="Compras.html">	
+	                         		<button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+								</a>
 	                        </div>
 	                    </div>
 	                </div>
@@ -160,8 +174,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<form name="Contacto" netlify method="post" id="contact_user_grupoamsi" class="form-contact" autocomplete="off" accept-charset="utf-8" data-netlify="true">
-						<h3 class="title-form-contact">Contacto:</h3>
+					<h1 class="center">Contacto</h1>
+					<form name="Contacto" data-netlify="true" method="post" id="contact_user_grupoamsi" class="form-contact" autocomplete="off" accept-charset="utf-8">
 						<div class="ctn-inputs">
 							<input type="text" name="contact_name_user_grupoamsi" id="contact_name_user_grupoamsi" pattern="[a-zA-Z/s]{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" placeholder="Apellido y Nombre">
 							<span class="bar-input-effect"><i class="fa fa-times clear-input-icon" aria-hidden="true"></i></span>
@@ -202,7 +216,6 @@
 					</form>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 	<div class="row">
