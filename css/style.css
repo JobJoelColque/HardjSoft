@@ -114,6 +114,7 @@ h1{
 }
 #compras .card{
 	background: #333;
+	border-radius: 15px;
 } 
 #compras h5{
 	color: white;
