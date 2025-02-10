@@ -399,6 +399,7 @@ textarea {
 }
 
 footer{
+	align-items: center;
 	text-align: center;
 	background: #333;
 	padding: 10px;
