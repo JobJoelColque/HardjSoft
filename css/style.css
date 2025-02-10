@@ -35,6 +35,12 @@ body{
 .menu img{
 	padding: 5px;
 }
+#logo1{
+	width: 100px;
+}
+#logo2{
+	width: 300px;
+}
 .menu ul{
 	list-style: none;
 }
@@ -459,5 +465,13 @@ footer p{
 }
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
+}
+@media(max-width:950px) {
+	#logo1{
+		width: 75px;
+	}
+	#logo2{
+		width: 250px;
+	}
 }
 
