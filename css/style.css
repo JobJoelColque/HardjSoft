@@ -65,10 +65,11 @@ body{
 	border-radius: 15px;
 	box-shadow: 0px 3px 5px 0px rgba(0, 116, 184, 1);
 }
-.menu p{
-	padding: 0px!important;
+#presentacion{
+	background: #333;
+	padding: 10px;
 	text-align: justify;
-	font-size: 20px;
+	font-size: 25px;
 	color: white;
 	font-family: 'StopD';
 }
@@ -472,6 +473,10 @@ footer p{
 	}
 	#logo2{
 		width: 250px;
+	}
+	#presentacion{
+	padding: 10px;
+	font-size: 18px;
 	}
 }
 
