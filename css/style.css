@@ -80,7 +80,7 @@ body{
     align-items: center; /* Centra el contenido horizontalmente */  
 }  
 #texto {
-    margin-bottom: 10px; /* Espacio entre el botón y el texto */  
+    margin-bottom: 5px; /* Espacio entre el botón y el texto */  
 	margin-top: 5px;
 }  
 h1{
