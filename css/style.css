@@ -26,8 +26,8 @@ body{
 }
 .boton{
 	display: flex;  
-    align-items: center;
-	font-family: 'StopD';
+        align-items: center;
+	font-family: 'StopD'!important;
 }
 .menu{
 	padding: 5px;
@@ -45,7 +45,7 @@ body{
 	list-style: none;
 }
 .menu ul li{
-	padding: 10px;
+    padding: 10px;
     padding-right: 20px;
     float: left;
 }
@@ -71,7 +71,7 @@ body{
 	text-align: justify;
 	font-size: 25px;
 	color: white;
-	font-family: 'StopD';
+	font-family: 'StopD'!important;
 }
 .navbar-collapse {
     flex-basis: 100%;
@@ -88,10 +88,10 @@ body{
 }  
 #texto {
     margin-bottom: 5px; /* Espacio entre el botón y el texto */  
-	margin-top: 5px;
+    margin-top: 5px;
 }  
 h1{
-	font-family: 'StopD';
+	font-family: 'StopD'!important;
 	text-align: center;
 	background: #006B6E;
 	color: white;
@@ -131,7 +131,7 @@ h1{
 	color: white;
 }
 #compras a{
-	font-family: 'StopD';
+	font-family: 'StopD'!important;
 }
 .col-md-4 video{
 	border-radius: 20px!important;
@@ -185,7 +185,7 @@ textarea {
 /* Título formulario de contacto */
 .form-contact .title-form-contact {
 	color: #006B6E;
- 	font-family: 'StopD';
+ 	font-family: 'StopD'!important;
  	font-size: 45px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -351,7 +351,7 @@ textarea {
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
-	font-family: 'StopD';
+	font-family: 'StopD'!important;
 	letter-spacing: 1px;
 	padding: 10px 20px;
 	text-transform: uppercase;
