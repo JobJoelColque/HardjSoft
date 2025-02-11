@@ -53,7 +53,7 @@ body{
 	font-family: 'StopD';
 	text-decoration: none !important;
 	color: white;
-	font-size: 40px;
+	font-size: 30px;
 	border-radius: 15px;
 	box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.1);
 }
@@ -468,6 +468,9 @@ footer p{
 	background: var(--linkedin);
 }
 @media(max-width:950px) {
+	.menu a{
+		font-size: 25px;
+	}
 	#logo1{
 		width: 75px;
 	}
