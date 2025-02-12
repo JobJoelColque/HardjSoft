@@ -42,6 +42,7 @@ body{
 }
 .menu ul{
 	list-style: none;
+	align-items: center;
 }
 .menu ul li{
     padding: 10px;
