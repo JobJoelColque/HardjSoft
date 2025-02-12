@@ -19,13 +19,14 @@ body{
 }
 .container-fluid{
 	background: #333;
+	align-items: center;
 }
 #navbarResponsive{
 	padding: 5px;	
 }
 .boton{
 	display: flex;  
-        align-items: center;
+        
 	font-family: 'StopD'!important;
 }
 .menu{
@@ -42,8 +43,6 @@ body{
 }
 .menu ul{
 	list-style: none;
-	align-items: center;
-	text-aligne: center;
 }
 .menu ul li{
     padding: 10px;
