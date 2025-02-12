@@ -17,7 +17,6 @@ body{
 	font-family: 'StopD';
 	src: url(/font/StopD.ttf);
 }
-}
 .container-fluid{
 	display: flex;
 	background: #333;
