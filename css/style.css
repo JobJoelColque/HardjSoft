@@ -26,7 +26,7 @@ body{
 }
 .boton{
 	display: flex;  
-        
+        align-items: center;
 	font-family: 'StopD'!important;
 }
 .menu{
