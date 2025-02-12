@@ -18,6 +18,7 @@ body{
 	src: url(/font/StopD.ttf);
 }
 .container-fluid{
+	display: flex;
 	background: #333;
 	align-items: center;
 }
