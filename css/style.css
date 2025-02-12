@@ -17,10 +17,11 @@ body{
 	font-family: 'StopD';
 	src: url(/font/StopD.ttf);
 }
+}
 .container-fluid{
 	display: flex;
 	background: #333;
-	align-items: center;
+	text-align: center;
 }
 #navbarResponsive{
 	padding: 5px;	
@@ -28,7 +29,7 @@ body{
 .boton{
 	display: flex;  
         align-items: center;
-	font-family: 'StopD'!important;
+	font-family: 'StopD';
 }
 .menu{
 	padding: 5px;
@@ -46,7 +47,7 @@ body{
 	list-style: none;
 }
 .menu ul li{
-    padding: 10px;
+	padding: 10px;
     padding-right: 20px;
     float: left;
 }
