@@ -464,7 +464,7 @@ footer p{
 		font-size: 25px;
 	}
 	#logo1{
-		width: 75px;
+		display: none;
 	}
 	#logo2{
 		width: 230px;
