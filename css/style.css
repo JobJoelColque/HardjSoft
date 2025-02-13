@@ -207,7 +207,7 @@ textarea {
 /* Labels formulario de contacto */
 .form-contact .ctn-inputs .support-text-form-contact {
 	color: #ffffff;
-	font-size: 8px;
+	font: normal 18px 'Nunito Sans', sans-serif;
 	left: 5px;
 	pointer-events: none;
 	position: absolute;
@@ -476,4 +476,7 @@ footer p{
 	.pie ul li{
 	margin: 0 5px;
 	}
-
+	.form-contact .ctn-inputs .effect-input {
+	font-size: 10px;
+	}
+}
