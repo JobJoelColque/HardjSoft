@@ -112,7 +112,7 @@ h1{
 #hjs{
 	border-radius: 25px;
 	width: 100%;
-	box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
+	box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.4);
 }
 .col-md-4 img{
 	padding: 10px;
