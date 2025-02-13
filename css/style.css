@@ -460,6 +460,9 @@ footer p{
 	background: var(--linkedin);
 }
 @media(max-width:950px) {
+	.container-fluid{
+	background: #006B6E;
+        }
 	.menu a{
 		font-size: 25px;
 	}
