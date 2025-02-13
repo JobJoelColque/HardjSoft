@@ -467,6 +467,7 @@ footer p{
 		display: none;
 	}
 	#logo2{
+		border-radius: 15px;
 		box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.5);
 		width: 250px;
 	}
