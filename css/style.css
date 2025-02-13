@@ -467,13 +467,13 @@ footer p{
 		display: none;
 	}
 	#logo2{
-		width: 230px;
+		width: 250px;
 	}
 	#presentacion{
 	padding: 10px;
 	font-size: 20px;
 	}
-	.menu ul li{
-        padding-right: 5px;
-        }
+	.pie ul li{
+	margin: 0 5px;
+	}
 
