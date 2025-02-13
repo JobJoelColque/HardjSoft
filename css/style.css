@@ -139,12 +139,6 @@ h1{
 	padding: 10px;
 }
 
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
 *:focus {
 	outline: 0;
 }
@@ -473,10 +467,10 @@ footer p{
 		font-size: 25px;
 	}
 	#logo1{
-		width: 75px;
+		width: 60px;
 	}
 	#logo2{
-		width: 250px;
+		width: 230px;
 	}
 	#presentacion{
 	padding: 10px;
