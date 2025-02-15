@@ -528,7 +528,9 @@ footer p{
 		font-size: 13px;
 	}
 	.ir-arriba{
-		padding: 30px;
+		padding: 15px;
+		bottom: 80px;
+		right: 50px;
 	}
 	.pie ul li{
 		margin: 0 5px;
