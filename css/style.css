@@ -165,7 +165,7 @@ textarea {
 /* Formulario de contacto */
 .form-contact {
 	background: url(../img/fondo2.png);
-	background-position: center center;
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
