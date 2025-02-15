@@ -459,6 +459,7 @@ footer p{
 .pie ul li .linkedin:hover{
 	background: var(--linkedin);
 }
+
 @media(max-width:950px) {
 	.container-fluid{
 	background: #006B6E;
@@ -492,3 +493,35 @@ footer p{
 	footer p{
 	font-size: 15px;
 	}
+		
+	@media(max-width:720px) {
+	#presentacion{
+		padding: 5px;
+		font-size: 16px;
+	}
+	#menu{
+		justify-content: center;
+	}
+	.form-contact .ctn-inputs .effect-input {
+		padding: 5px 5px;
+		font-size: 13px;
+	}
+	.ir-arriba{
+		padding: 30px;
+	}
+	.pie ul li{
+		margin: 0 5px;
+	}
+	textarea {
+		height: 100px;
+	}
+	footer{
+		text-align: justify;
+	}
+	footer p{
+		font-size: 12px;
+	}
+	.btn-form-contact {
+		font-size: 10px;
+	}
+}
