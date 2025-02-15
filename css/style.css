@@ -507,6 +507,11 @@ footer p{
 	.form-contact .ctn-inputs .effect-input {
 	font-size: 17px;
 	}
+	.ir-arriba{
+		padding: 30px;
+		bottom: 80px;
+		right: 25px;
+	}
 	footer{
 	text-align: justify;
 	background: #006B6E;
@@ -528,9 +533,9 @@ footer p{
 		font-size: 13px;
 	}
 	.ir-arriba{
-		padding: 15px;
+		padding: 30px;
 		bottom: 80px;
-		right: 50px;
+		right: 25px;
 	}
 	.pie ul li{
 		margin: 0 5px;
