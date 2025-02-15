@@ -157,7 +157,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 textarea {
-	height: 100px;
+	height: 250px;
 	line-height: 20px;
 	resize: none;
 }
