@@ -505,12 +505,15 @@ footer p{
 		height: 250px;
 	}
 	.form-contact .ctn-inputs .effect-input {
-	font-size: 17px;
+	font-size: 20px;
 	}
 	.ir-arriba{
 		padding: 30px;
 		bottom: 80px;
 		right: 25px;
+	}
+	.btn-form-contact {
+		font-size: 10px;
 	}
 	footer{
 	text-align: justify;
@@ -532,6 +535,9 @@ footer p{
 		padding: 5px 5px;
 		font-size: 17px;
 	}
+	.btn-form-contact {
+		font-size: 10px;
+	}
 	.ir-arriba{
 		padding: 30px;
 		bottom: 80px;
@@ -549,7 +555,5 @@ footer p{
 	footer p{
 		font-size: 12px;
 	}
-	.btn-form-contact {
-		font-size: 10px;
-	}
+	
 }/*
