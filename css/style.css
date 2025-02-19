@@ -491,7 +491,7 @@ footer p{
 	#logo2{
 		margin: auto;
 		border-radius: 15px;
-		box-shadow: 6px 3px 6px 3px rgba(255, 255, 255, 0.5);
+		box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5), -6px -6px 18px #006B6E;
 		width: 250px;
 	}
 	#presentacion{
