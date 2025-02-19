@@ -501,6 +501,10 @@ footer p{
 	.pie ul li{
 	margin: 0 5px;
 	}
+	.boton{
+		border-radius: 15px;
+		box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5), -6px -6px 18px #006B6E;
+	}
 	textarea {
 		height: 223px;
 	}
