@@ -146,7 +146,13 @@ h1{
 #compras a{
 	font-family: 'StopD'!important;
 }
+*:focus {
+	outline: 0;
+}
 
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 .formulario {  
     background: url(../img/fondoimg.png); /* Usa aquí la imagen o color de fondo que desees */  
     padding: 10px; /* Espacio alrededor del formulario */  
