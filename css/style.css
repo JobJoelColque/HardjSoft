@@ -497,6 +497,7 @@ footer p{
 	}
 	.container-fluid{
 		background: url(../img/fondoimg.png);
+		height: 60px;
         }
 	.menu a{
 		font-size: 25px;
