@@ -19,7 +19,7 @@ body{
 }
 .container-fluid{
 	display: flex;
-	background: #333;
+	background: #006B6E;
 	text-align: center;
 }
 #navbarResponsive{
@@ -27,7 +27,7 @@ body{
 }
 .boton{
 	display: flex;  
-        align-items: center;
+    align-items: center;
 	font-family: 'StopD';
 }
 .menu{
@@ -66,8 +66,22 @@ body{
 	border-radius: 15px;
 	box-shadow: 0px 3px 5px 0px rgba(0, 116, 184, 1);
 }
+.container video{
+	background: url(../img/fondoimg.png);
+	padding: 15px;
+	border-radius: 15px;
+	width: 100%;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5),
+	           -10px -10px 30px #02225B;
+}
+#hjs{
+	padding-top: 25px;
+}
+#hjs video{
+	border-radius: 25px;
+}
 #presentacion{
-	background: #333;
+	background: url(../img/fondoimg.png);
 	padding: 10px;
 	text-align: justify;
 	font-size: 25px;
@@ -109,20 +123,17 @@ h1{
 	font-size: 20px;
 	border-radius: 10px;
 }
-#hjs{
-	border-radius: 25px;
-	width: 100%;
-	box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.4);
-}
 .col-md-4 img{
-	padding: 10px;
+	padding: 15px;
 	border-radius: 20px !important;
 }
 #compras .col-md-4{
 	padding: 5px;
 }
 #compras .card{
-	background: #333;
+	background: url(../img/fondoimg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	border-radius: 15px;
 } 
 #compras h5{
@@ -165,7 +176,8 @@ textarea {
 /* Formulario de contacto */
 .form-contact {
 	background: url(../img/fondo2.png);
-	
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5),
+	           -10px -10px 30px #02225B;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -175,6 +187,7 @@ textarea {
 	padding: 15px 0;
 	width: 600px;
 	border-radius: 25px;
+	border: 5px solid #333;
 }
 .form-contact::before {  
 	border-radius: 25px;
@@ -371,7 +384,7 @@ textarea {
 /* Hover botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
 .btn-form-contact:hover,
 .btn-form-contact:focus {
-	background-color: #5a5a5a;
+	background: url(../img/fondoimg.png);
 }
 
 /* Efecto cuando dan click en el botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
@@ -418,7 +431,7 @@ textarea {
 footer{
 	align-items: center;
 	text-align: center;
-	background: #333;
+	background: #006B6E;
 	padding: 2px;
 }
 footer p{
@@ -480,7 +493,7 @@ footer p{
 
 @media(max-width:950px) {
 	.container-fluid{
-	background: #006B6E;
+		background: url(../img/fondoimg.png);
         }
 	.menu a{
 		font-size: 25px;
@@ -491,19 +504,21 @@ footer p{
 	#logo2{
 		margin: auto;
 		border-radius: 15px;
-		box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5), -6px -6px 18px #006B6E;
+		box-shadow: 6px 6px 18px rgba(255, 255, 255, 0.7),
+					-6px -6px 18px rgba(0, 0, 0, 0.7);
 		width: 250px;
 	}
 	#presentacion{
 		padding: 10px;
 		font-size: 20px;
 	}
-	.pie ul li{
-	margin: 0 5px;
-	}
 	.boton{
 		border-radius: 15px;
-		box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5), -6px -6px 18px #006B6E;
+		box-shadow: 6px 6px 18px rgba(255, 255, 255, 0.7),
+					-6px -6px 18px rgba(0, 0, 0, 0.7);
+	}
+	.pie ul li{
+		margin: 0 5px;
 	}
 	textarea {
 		height: 223px;
@@ -520,44 +535,10 @@ footer p{
 		font-size: 10px;
 	}
 	footer{
-	text-align: justify;
-	background: #006B6E;
-	}
-	footer p{
-	font-size: 15px;
-	}
-}		
-	/*@media(max-width:720px) {
-	#presentacion{
-		padding: 8px;
-		font-size: 16px;
-	}
-	#menu{
-		justify-content: center;
-	}
-	.form-contact .ctn-inputs .effect-input {
-		padding: 5px 5px;
-		font-size: 17px;
-	}
-	.btn-form-contact {
-		font-size: 10px;
-	}
-	.ir-arriba{
-		padding: 30px;
-		bottom: 80px;
-		right: 25px;
-	}
-	.pie ul li{
-		margin: 0 5px;
-	}
-	textarea {
-		height: 100px;
-	}
-	footer{
 		text-align: justify;
+		background: url(../img/fondoimg.png);
 	}
 	footer p{
-		font-size: 12px;
+		font-size: 15px;
 	}
-	
-}/*
+}
