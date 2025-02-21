@@ -497,7 +497,7 @@ footer p{
 	}
 	.container-fluid{
 		background: url(../img/fondoimg.png);
-		height: 60px;
+		height: 80px;
         }
 	.menu a{
 		font-size: 25px;
@@ -524,6 +524,10 @@ footer p{
 	.pie ul li{
 		margin: 0 5px;
 	}
+	#hjs{
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
 	textarea {
 		height: 223px;
 	}
