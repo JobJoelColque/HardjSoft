@@ -492,6 +492,9 @@ footer p{
 }
 
 @media(max-width:950px) {
+	hr{
+		display: none;
+	}
 	.container-fluid{
 		background: url(../img/fondoimg.png);
         }
