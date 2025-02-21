@@ -7,6 +7,7 @@
 	<title>HardjSoft</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
@@ -176,50 +177,52 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="center">Contacto</h1>
-					<form name="Contacto" data-netlify="true" method="post" id="contact_user_grupoamsi" class="form-contact" autocomplete="off" accept-charset="utf-8">
-						<div class="ctn-inputs">
-							<input type="text" name="contact_name_user_grupoamsi" id="contact_name_user_grupoamsi" pattern="[a-zA-Z/s]{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" placeholder="Apellido y Nombre">
-							<span class="bar-input-effect"><i class="fa fa-times clear-input-icon" aria-hidden="true"></i></span>
-							<p id="field-names" class="error-input-form-contact"></p>
-						</div>
-						<div class="ctn-inputs">
-							<input type="email" name="contact_email_user_grupoamsi" id="contact_email_user_grupoamsi" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class=" effect-input" minlength="6" maxlength="92" autocomplete="off" required="required" placeholder="Email">
-							<span class="bar-input-effect">
-								<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
-							</span>
-							<p id="field-email" class="error-input-form-contact"></p>
-						</div>
-						<div class="ctn-inputs ctn-middle">
-							<input type="tel" name="contact_tel_user_grupoamsi" id="contact_tel_user_grupoamsi" pattern="[0-9]{7,11}" class="inline-block effect-input" min="2000000" max="3500000000" minlength="7" maxlength="11" autocomplete="off" placeholder="N° de Celular">
-							<span class="bar-input-effect">
-								<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
-							</span>
-							<p id="field-tel" class="error-input-form-contact"></p>
-						</div>
-						<div class="ctn-inputs ctn-middle">
-							<input type="tel" name="contact_tel_user_grupoamsi" id="contact_tel_user_grupoamsi" pattern="[0-9]{7,11}" class="inline-block effect-input" min="2000000" max="3500000000" minlength="7" maxlength="11" autocomplete="off" placeholder="N° de Telefono">
-							<span class="bar-input-effect">
-								<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
-							</span>
-							<p id="field-tel" class="error-input-form-contact"></p>
-						</div>
-						<div class="ctn-inputs">
-							<textarea name="contact_comments_user_grupoamsi" id="contact_comments_user_grupoamsi" pattern="[a-zA-Z0-9]{10,400}" class=" effect-input" minlength="10" maxlength="400" autocomplete="off" required="required" placeholder="Ingrese su consulta"></textarea>
-							<span class="bar-input-effect">
-								<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
-							</span>
-							<p id="field-comments" class="error-input-form-contact"></p>
-						</div>
-						<div class="ctn-btns-form-contact">
-							<input type="reset" id="clear_contact_user_grupoamsi" name="clear_contact_user_grupoamsi" class="btn-form-contact" value="Limpiar">
-							<input type="submit" id="send_contact_user_grupoamsi" name="send_contact_user_grupoamsi" class="btn-form-contact" target="_blanck" value="Enviar" >
-						</div>
-					</form>
+					<div class="formulario" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+						<form name="Contacto" data-netlify="true" method="post" id="contact_user_grupoamsi" class="form-contact" autocomplete="off" accept-charset="utf-8">
+							<div class="ctn-inputs">
+								<input type="text" name="contact_name_user_grupoamsi" id="contact_name_user_grupoamsi" pattern="[a-zA-Z/s]{2,100}" class=" effect-input" minlength="2" maxlength="100" autocomplete="off" required="required" placeholder="Apellido y Nombre">
+								<span class="bar-input-effect"><i class="fa fa-times clear-input-icon" aria-hidden="true"></i></span>
+								<p id="field-names" class="error-input-form-contact"></p>
+							</div>
+							<div class="ctn-inputs">
+								<input type="email" name="contact_email_user_grupoamsi" id="contact_email_user_grupoamsi" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class=" effect-input" minlength="6" maxlength="92" autocomplete="off" required="required" placeholder="Email">
+								<span class="bar-input-effect">
+									<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
+								</span>
+								<p id="field-email" class="error-input-form-contact"></p>
+							</div>
+							<div class="ctn-inputs ctn-middle">
+								<input type="tel" name="contact_tel_user_grupoamsi" id="contact_tel_user_grupoamsi" pattern="[0-9]{7,11}" class="inline-block effect-input" min="2000000" max="3500000000" minlength="7" maxlength="11" autocomplete="off" placeholder="N° de Celular">
+								<span class="bar-input-effect">
+									<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
+								</span>
+								<p id="field-tel" class="error-input-form-contact"></p>
+							</div>
+							<div class="ctn-inputs ctn-middle">
+								<input type="tel" name="contact_tel_user_grupoamsi" id="contact_tel_user_grupoamsi" pattern="[0-9]{7,11}" class="inline-block effect-input" min="2000000" max="3500000000" minlength="7" maxlength="11" autocomplete="off" placeholder="N° de Telefono">
+								<span class="bar-input-effect">
+									<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
+								</span>
+								<p id="field-tel" class="error-input-form-contact"></p>
+							</div>
+							<div class="ctn-inputs">
+								<textarea name="contact_comments_user_grupoamsi" id="contact_comments_user_grupoamsi" pattern="[a-zA-Z0-9]{10,400}" class=" effect-input" minlength="10" maxlength="400" autocomplete="off" required="required" placeholder="Ingrese su consulta"></textarea>
+								<span class="bar-input-effect">
+									<i class="fa fa-times clear-input-icon" aria-hidden="true"></i>
+								</span>
+								<p id="field-comments" class="error-input-form-contact"></p>
+							</div>
+							<div class="ctn-btns-form-contact">
+								<input type="reset" id="clear_contact_user_grupoamsi" name="clear_contact_user_grupoamsi" class="btn-form-contact" value="Limpiar">
+								<input type="submit" id="send_contact_user_grupoamsi" name="send_contact_user_grupoamsi" class="btn-form-contact" target="_blanck" value="Enviar" >
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<div id="footer" class="row">
 		<div class="col-md-12 texto">
 			<footer>
 				<p>Copyright © HardjSoft 2025 - Todos los derechos reservados</p>
@@ -237,5 +240,9 @@
 	<span class="ir-arriba"></span>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+  	</script>
 </body>
 </html>
