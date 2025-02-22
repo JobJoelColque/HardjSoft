@@ -146,6 +146,39 @@ h1{
 #compras a{
 	font-family: 'StopD'!important;
 }
+#compras button{
+	background: #006B6E;
+	box-shadow: 1px 0px #202020,
+							0px 1px white,
+							2px 1px white,
+							1px 2px white,
+							3px 2px white,
+							2px 3px white,
+							4px 3px white,
+							3px 4px white,
+							5px 4px white,
+							4px 5px white,
+							6px 5px white,
+							5px 6px white;
+}
+#compras button:hover,
+#compras button:focus {
+	background: url(../img/fondoimg.png);
+}
+
+/* Efecto cuando dan click en el botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
+#compras button:active {
+	box-shadow: 1px 0px #202020,
+	 						0px 1px #202020,
+	 						2px 1px #202020,
+	 						1px 2px #202020,
+	 						3px 2px #202020,
+	 						2px 3px #202020,
+	 						4px 3px #202020,
+	 						3px 4px #202020;
+	transform: translate(2px);
+}
+
 *:focus {
 	outline: 0;
 }
