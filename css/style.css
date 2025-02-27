@@ -221,6 +221,7 @@ textarea {
 	height: 250px;
 	line-height: 20px;
 	resize: none;
+	text-align: justify;
 }
 
 /* Formulario de contacto */
