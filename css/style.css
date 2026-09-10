@@ -24,7 +24,7 @@ body{
 	text-align: center;
 }
 #navbarResponsive{
-	padding: 5px;	
+	padding: 2px;	
 }
 .boton{
 	display: flex;  
@@ -482,7 +482,7 @@ textarea {
 footer{
 	align-items: center;
 	text-align: center;
-	background: #006B6E;
+	background: #000000;
 	padding: 2px;
 }
 footer p{
