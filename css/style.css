@@ -82,7 +82,7 @@ body{
 	border-radius: 25px;
 }
 #presentacion{
-	background: url(../img/fondoimg.png);
+	background: url(../img/fondoimg1.png);
 	padding: 10px;
 	text-align: justify;
 	font-size: 25px;
@@ -173,7 +173,7 @@ h1{
 }
 #compras button:hover,
 #compras button:focus {
-	background: url(../img/fondoimg.png);
+	background: url(../img/fondoimg1.png);
 }
 
 /* Efecto cuando dan click en el botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
@@ -547,7 +547,7 @@ footer p{
 		display: none;
 	}
 	.container-fluid{
-		background: url(../img/fondoimg.png);
+		background: url(../img/fondoimg1.png);
 	}
 	.menu a{
 		font-size: 25px;
@@ -603,7 +603,7 @@ footer p{
 		font-size: 12px;
 	}
 	footer{
-		background: url(../img/fondoimg.png);
+		background: url(../img/fondoimg1.png);
 	}
 	footer p{
 		padding-top: 5px;
