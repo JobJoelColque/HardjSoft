@@ -1,3 +1,10 @@
+@font-face{
+    font-family:StopD;
+    src:url('../fonts/StopD.TTF') format('truetype');
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+}
 body{
 	font-family: 'Roboto' !important;
 	padding: 0px !important;
@@ -13,10 +20,6 @@ body{
 	--facebook: #3b5999;
 	--wtsp: #1D733B;
 	--linkedin: #0077B5;
-}
-@font-face{
-	font-family: 'StopD';
-	src: url(/font/StopD.ttf);
 }
 .container-fluid{
 	display: flex;
