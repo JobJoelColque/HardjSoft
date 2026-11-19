@@ -1,3 +1,7 @@
+html {
+    font-family: 'StopD', Arial, sans-serif;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 @font-face{
     font-family:StopD;
     src:url('../fonts/StopD.TTF') format('truetype');
@@ -6,13 +10,20 @@
     font-display:swap;
 }
 body{
-	font-family: 'Roboto' !important;
+	font-family: 'StopD', Arial, sans-serif !important;
 	padding: 0px !important;
 	margin: 0px !important;
 	background: url(../img/fondo2.png);
 	background-size: cover;
 	box-sizing: border-box;
 	background-attachment: fixed;
+}
+/* APLICAR STOPD A LOS ELEMENTOS */
+h1, h2, h3, h4, h5, h6,
+p, a, span, li,
+button, input, textarea, select,
+label {
+    font-family: 'StopD', Arial, sans-serif;
 }
 :root{
 	--mail: #079DD9;
@@ -190,10 +201,6 @@ h1{
 *:focus {
 	outline: 0;
 }
-
-html {
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
 .formulario {  
     background: url(../img/robot3.png); /* Usa aquí la imagen o color de fondo que desees */  
     padding: 10px; /* Espacio alrededor del formulario */  
@@ -254,8 +261,7 @@ textarea {
 
 /* Título formulario de contacto */
 .form-contact .title-form-contact {
-	color: #006B6E;
- 	font-family: 'StopD'!important;
+	color: #006B6E; 	
  	font-size: 45px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -420,8 +426,7 @@ textarea {
 							5px 6px #202020;
 	color: #ffffff;
 	cursor: pointer;
-	display: block;
-	font-family: 'StopD'!important;
+	display: block;	
 	letter-spacing: 1px;
 	padding: 10px 20px;
 	text-transform: uppercase;
