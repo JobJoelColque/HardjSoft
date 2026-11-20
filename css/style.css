@@ -497,13 +497,13 @@ footer p{
 	background: url(../img/logo.png);
 	background-size: cover;
 	box-sizing: border-box;
-	font-size: 40px;
+	font-size: 10px;
 	color: white;
 	cursor: pointer;
 	position: fixed;
 	bottom: 120px;
 	right: 50px;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 .pie{
 	text-align: center;
