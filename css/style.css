@@ -530,7 +530,7 @@ footer p{
 	filter: none;
 }
 .pie img{
-	width: 80px;
+	width: 50px;
 }
 .pie ul li .mail:hover{
 	background: var(--mail);
