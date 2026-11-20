@@ -491,19 +491,32 @@ footer{
 footer p{
 	color: white;
 }
-.ir-arriba{
-	display: none;
-	padding: 80px;
-	background: url(../img/logo.png);
-	background-size: cover;
-	box-sizing: border-box;
-	font-size: 10px;
-	color: white;
-	cursor: pointer;
-	position: fixed;
-	bottom: 120px;
-	right: 50px;
-	border-radius: 5px;
+.ir-arriba {
+    display: none;
+
+    /* Dimensiones del contenedor */
+    width: 100px;
+    height: 100px;
+    padding: 0;
+
+    /* Imagen de fondo */
+    background-image: url("../img/logo.png");
+    background-size: 80% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    /* Otras propiedades */
+    box-sizing: border-box;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+
+    /* Posición fija */
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+
+    border-radius: 5px;
 }
 .pie{
 	text-align: center;
