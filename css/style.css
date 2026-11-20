@@ -501,7 +501,7 @@ footer p{
 
     /* Imagen de fondo */
     background-image: url("../img/logo.png");
-    background-size: 100% auto;
+    background-size: 120% auto;
     background-position: center center;
     background-repeat: no-repeat;
 
