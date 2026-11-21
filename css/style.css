@@ -123,6 +123,7 @@ h1{
 	background: #000000;
 	color: white;
 	border-radius: 10px;
+	box-shadow: 0px 3px 5px 0px rgba(0, 116, 184, 1);
 }
 #secciones li{
 	padding: 5px;
