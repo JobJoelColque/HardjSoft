@@ -436,6 +436,7 @@ textarea {
 .btn-form-contact:hover,
 .btn-form-contact:focus {
 	background: url(../img/fondoimg.png);
+	color: #000000;
 }
 
 /* Efecto cuando dan click en el botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
