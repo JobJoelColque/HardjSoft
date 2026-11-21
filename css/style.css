@@ -438,16 +438,15 @@ textarea {
 	cursor: pointer;
 	display: block;	
 	letter-spacing: 1px;
-	padding: 10px 20px;
-	text-transform: uppercase;
+	padding: 10px 20px;	
     transition: 0.3s ease all;
 }
 
 /* Hover botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
 .btn-form-contact:hover,
 .btn-form-contact:focus {
-	background: url(../img/fondoimg.png);
-	color: #000000;
+	background: url(../img/fondoimg1.png);
+	color: #ffffff;
 }
 
 /* Efecto cuando dan click en el botón sección ayuda, botón formulario de contacto y botón de cerrar en el footer de los modales */
