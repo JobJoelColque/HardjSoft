@@ -160,11 +160,17 @@ h1{
 } 
 #compras h5{
 	color: white;
-	padding-top: 5px;
+	background: rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
-#compras p{
-	color: white;
-	background: rgba(0, 0 , 0, 0.6);
+#compras p {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 #compras button{
 	background: #000000;
